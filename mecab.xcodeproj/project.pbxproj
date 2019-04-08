@@ -8,63 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		44C744FE2073586A008F46FD /* mecab.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C744FD2073586A008F46FD /* mecab.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44C74542207358B7008F46FD /* connector.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C744FF207358AD008F46FD /* connector.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44C74543207358B7008F46FD /* freelist.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74500207358AD008F46FD /* freelist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C74542207358B7008F46FD /* connector.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C744FF207358AD008F46FD /* connector.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		44C74543207358B7008F46FD /* freelist.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74500207358AD008F46FD /* freelist.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		44C74545207358B7008F46FD /* dictionary_rewriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C74502207358AD008F46FD /* dictionary_rewriter.cpp */; };
 		44C74546207358B7008F46FD /* lbfgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C74503207358AD008F46FD /* lbfgs.cpp */; };
-		44C7454A207358B7008F46FD /* char_property.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74507207358AE008F46FD /* char_property.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44C7454B207358B7008F46FD /* dictionary_rewriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74508207358AE008F46FD /* dictionary_rewriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C7454A207358B7008F46FD /* char_property.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74507207358AE008F46FD /* char_property.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		44C7454B207358B7008F46FD /* dictionary_rewriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74508207358AE008F46FD /* dictionary_rewriter.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		44C7454C207358B7008F46FD /* iconv_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C74509207358AE008F46FD /* iconv_utils.cpp */; };
-		44C7454D207358B7008F46FD /* viterbi.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C7450A207358AE008F46FD /* viterbi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C7454D207358B7008F46FD /* viterbi.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C7450A207358AE008F46FD /* viterbi.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		44C7454E207358B7008F46FD /* learner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C7450B207358AE008F46FD /* learner.cpp */; };
 		44C7454F207358B7008F46FD /* tokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C7450C207358AE008F46FD /* tokenizer.cpp */; };
 		44C74551207358B7008F46FD /* char_property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C7450E207358AE008F46FD /* char_property.cpp */; };
 		44C74552207358B7008F46FD /* context_id.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C7450F207358AF008F46FD /* context_id.cpp */; };
-		44C74553207358B7008F46FD /* iconv_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74510207358AF008F46FD /* iconv_utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C74553207358B7008F46FD /* iconv_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74510207358AF008F46FD /* iconv_utils.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		44C74554207358B7008F46FD /* libmecab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C74511207358AF008F46FD /* libmecab.cpp */; };
-		44C74555207358B7008F46FD /* ucs.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74512207358AF008F46FD /* ucs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44C74556207358B7008F46FD /* feature_index.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74513207358AF008F46FD /* feature_index.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C74555207358B7008F46FD /* ucs.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74512207358AF008F46FD /* ucs.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		44C74556207358B7008F46FD /* feature_index.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74513207358AF008F46FD /* feature_index.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		44C74557207358B7008F46FD /* connector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C74514207358AF008F46FD /* connector.cpp */; };
 		44C74558207358B7008F46FD /* string_buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C74515207358AF008F46FD /* string_buffer.cpp */; };
-		44C74559207358B7008F46FD /* dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74516207358B0008F46FD /* dictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C74559207358B7008F46FD /* dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74516207358B0008F46FD /* dictionary.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		44C7455A207358B7008F46FD /* mecab_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 44C74517207358B0008F46FD /* mecab_Prefix.pch */; };
-		44C7455B207358B7008F46FD /* stream_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74518207358B0008F46FD /* stream_wrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C7455B207358B7008F46FD /* stream_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74518207358B0008F46FD /* stream_wrapper.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		44C7455C207358B7008F46FD /* viterbi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C74519207358B0008F46FD /* viterbi.cpp */; };
-		44C7455D207358B7008F46FD /* nbest_generator.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C7451A207358B0008F46FD /* nbest_generator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C7455D207358B7008F46FD /* nbest_generator.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C7451A207358B0008F46FD /* nbest_generator.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		44C7455E207358B7008F46FD /* writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C7451B207358B0008F46FD /* writer.cpp */; };
-		44C74560207358B7008F46FD /* param.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C7451D207358B1008F46FD /* param.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C74560207358B7008F46FD /* param.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C7451D207358B1008F46FD /* param.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		44C74561207358B7008F46FD /* mecab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C7451E207358B1008F46FD /* mecab.cpp */; };
 		44C74563207358B7008F46FD /* nbest_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C74520207358B1008F46FD /* nbest_generator.cpp */; };
 		44C74564207358B7008F46FD /* dictionary_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C74521207358B2008F46FD /* dictionary_generator.cpp */; };
-		44C74566207358B7008F46FD /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74523207358B2008F46FD /* common.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44C74567207358B7008F46FD /* learner_tagger.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74524207358B2008F46FD /* learner_tagger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C74566207358B7008F46FD /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74523207358B2008F46FD /* common.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		44C74567207358B7008F46FD /* learner_tagger.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74524207358B2008F46FD /* learner_tagger.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		44C7456A207358B7008F46FD /* dictionary_compiler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C74527207358B3008F46FD /* dictionary_compiler.cpp */; };
-		44C7456B207358B7008F46FD /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74528207358B3008F46FD /* writer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44C7456C207358B7008F46FD /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74529207358B4008F46FD /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44C7456D207358B7008F46FD /* context_id.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C7452A207358B4008F46FD /* context_id.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C7456B207358B7008F46FD /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74528207358B3008F46FD /* writer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		44C7456C207358B7008F46FD /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74529207358B4008F46FD /* config.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		44C7456D207358B7008F46FD /* context_id.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C7452A207358B4008F46FD /* context_id.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		44C7456F207358B7008F46FD /* feature_index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C7452C207358B4008F46FD /* feature_index.cpp */; };
-		44C74570207358B7008F46FD /* string_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C7452D207358B4008F46FD /* string_buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C74570207358B7008F46FD /* string_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C7452D207358B4008F46FD /* string_buffer.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		44C74571207358B7008F46FD /* eval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C7452E207358B5008F46FD /* eval.cpp */; };
-		44C74572207358B7008F46FD /* learner_node.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C7452F207358B5008F46FD /* learner_node.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44C74573207358B7008F46FD /* tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74530207358B5008F46FD /* tokenizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44C74574207358B7008F46FD /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74531207358B5008F46FD /* utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44C74575207358B7008F46FD /* mmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74532207358B5008F46FD /* mmap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44C74576207358B7008F46FD /* darts.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74533207358B6008F46FD /* darts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C74572207358B7008F46FD /* learner_node.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C7452F207358B5008F46FD /* learner_node.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		44C74573207358B7008F46FD /* tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74530207358B5008F46FD /* tokenizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		44C74574207358B7008F46FD /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74531207358B5008F46FD /* utils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		44C74575207358B7008F46FD /* mmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74532207358B5008F46FD /* mmap.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		44C74576207358B7008F46FD /* darts.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74533207358B6008F46FD /* darts.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		44C74577207358B7008F46FD /* learner_tagger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C74534207358B6008F46FD /* learner_tagger.cpp */; };
-		44C74578207358B7008F46FD /* scoped_ptr.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74535207358B6008F46FD /* scoped_ptr.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44C74579207358B7008F46FD /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74536207358B6008F46FD /* thread.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44C7457A207358B7008F46FD /* ucstable.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74537207358B6008F46FD /* ucstable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C74578207358B7008F46FD /* scoped_ptr.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74535207358B6008F46FD /* scoped_ptr.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		44C74579207358B7008F46FD /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74536207358B6008F46FD /* thread.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		44C7457A207358B7008F46FD /* ucstable.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C74537207358B6008F46FD /* ucstable.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		44C7457C207358B7008F46FD /* param.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C74539207358B7008F46FD /* param.cpp */; };
 		44C7457D207358B7008F46FD /* tagger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C7453A207358B7008F46FD /* tagger.cpp */; };
 		44C74580207358B7008F46FD /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C7453D207358B7008F46FD /* utils.cpp */; };
-		44C74582207358B7008F46FD /* lbfgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C7453F207358B7008F46FD /* lbfgs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C74582207358B7008F46FD /* lbfgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C7453F207358B7008F46FD /* lbfgs.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		44C74583207358B7008F46FD /* dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44C74540207358B7008F46FD /* dictionary.cpp */; };
 		44C7458720735AA0008F46FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C7458620735AA0008F46FD /* Foundation.framework */; };
 		44C745D3207360AB008F46FD /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C745D2207360AB008F46FD /* libiconv.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4426E708225B150B00AA2420 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		44C74468207357D7008F46FD /* mecab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mecab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C7446C207357D7008F46FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44C744FD2073586A008F46FD /* mecab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mecab.h; sourceTree = "<group>"; };
@@ -175,7 +174,6 @@
 			isa = PBXGroup;
 			children = (
 				44C7446A207357D7008F46FD /* mecab */,
-				4426E708225B150B00AA2420 /* module.modulemap */,
 				44C74469207357D7008F46FD /* Products */,
 				44C7458520735AA0008F46FD /* Frameworks */,
 			);
@@ -238,8 +236,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44C74582207358B7008F46FD /* lbfgs.h in Headers */,
 				44C744FE2073586A008F46FD /* mecab.h in Headers */,
+				44C74582207358B7008F46FD /* lbfgs.h in Headers */,
 				44C74574207358B7008F46FD /* utils.h in Headers */,
 				44C74567207358B7008F46FD /* learner_tagger.h in Headers */,
 				44C74559207358B7008F46FD /* dictionary.h in Headers */,
@@ -400,6 +398,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
@@ -460,6 +459,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
@@ -490,7 +490,6 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = WNHYA375TJ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -506,7 +505,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = module.modulemap;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.landonepps.mecab;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -523,7 +521,6 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = WNHYA375TJ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -539,7 +536,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = module.modulemap;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.landonepps.mecab;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

@@ -1,6 +1,0 @@
-framework module mecab {
-  umbrella header "mecab.h"
-  
-  export *
-  module * { export * }
-}
