@@ -11,7 +11,10 @@ https://github.com/landonepps/mecab-ios-sample
 ***
 
 originally forked from
-https://github.com/FLCLjp/iPhone-libmecab
+[FLCLjp/iPhone-libmecab](https://github.com/FLCLjp/iPhone-libmecab)
+
+MeCab source code updated to current version from [taku910/mecab](https://github.com/taku910/mecab)
+(commit [3a07c4e](https://github.com/taku910/mecab/commit/3a07c4eefaffb4e7a0690a7f4e5e0263d3ddb8a3) on Mar 18, 2018)
 
 ### Reference
 http://d.hatena.ne.jp/seiyan1978/comment?date=20111116&section=1321461642
