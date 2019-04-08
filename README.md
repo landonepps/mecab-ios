@@ -1,6 +1,6 @@
-mecab
+MeCab for Swift
 =====
-### Mecab Dynamic Framework for iOS 11
+### MeCab Dynamic Framework for iOS 11
 
 This repository only contains the framework and associated Xcode project file.
 
