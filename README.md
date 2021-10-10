@@ -4,9 +4,9 @@ MeCab for Swift
 
 This repository only contains the framework and associated Xcode project file.
 
-An example project and usage instructions are available here:
+For the SPM package, see: https://github.com/landonepps/mecab
 
-https://github.com/landonepps/mecab-ios-sample
+An example project and usage instructions are available here: https://github.com/landonepps/mecab-ios-sample
 
 ***
 
